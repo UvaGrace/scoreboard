@@ -1,0 +1,72 @@
+ /** {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+**/
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(images/basketball-court3.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("fonts/cursedtimerulil-aznm.ttf");
+}
+
+.column {
+  width: 180px;
+}
+
+h3 {
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #EEEEEE;
+line-height: 36px;
+}
+
+.score{
+background: #0a0001;
+font-family: "Cursed Timer ULiL";
+font-size: 90px;
+color: #F94F6D;
+width: 155px;
+height: 110px;
+margin: -16px 0px 25px 12px;
+padding: 15px 0px 0px 0px;
+text-align: center;
+border-radius: 3%;
+}
+
+.increment-btn {
+  background: none;
+  color: #9AABD8;
+  border: 2px solid;
+  border-color: #9AABD8;
+  border-radius: 4px;
+  font-family: "Cursed Timer ULiL";
+  width: 45px;
+  height: 45px;
+}
+
+#increment-btn-two {
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+}
+
+#increment-btn-two-home {
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+}
